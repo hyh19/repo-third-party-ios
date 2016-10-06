@@ -7,5 +7,5 @@ Pod::Spec.new do |s|
   s.author       = { "Yuhui Huang" => "mrhuangyuhui@gmail.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/mrhuangyuhui/repo-third-party-ios.git", :tag => "#{s.version}" }
-  s.source_files = "Classes", "Classes/JMWhenTapped/*.{h,m}"
+  s.source_files = "Classes", "Classes/**/*.{h,m}"
 end
